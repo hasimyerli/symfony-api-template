@@ -4,3 +4,6 @@ symfony:
     amazing: Symfony çılgın
   has:
     bundles: Symfony'de paketler var.
+error:
+    example:
+      not_found: Example bulunamadı!

@@ -1,0 +1,19 @@
+example_create:
+  path: /example
+  controller: App\Controller\Api\ExampleController:createExample
+  methods: [POST]
+
+example_delete:
+    path: /example/{exampleId}
+    controller: App\Controller\Api\ExampleController:deleteExample
+    methods: [DELETE]
+
+example_get:
+  path: /example/{exampleId}
+  controller: App\Controller\Api\ExampleController:getExample
+  methods: [GET]
+
+example_update:
+  path: /example/{exampleId}
+  controller: App\Controller\Api\ExampleController:updateExample
+  methods: [PUT]
